@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+
+# Database
+*.db
+
+# Lockfiles may be committed, but local overrides should not be
+uv.lock

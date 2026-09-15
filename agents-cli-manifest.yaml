@@ -1,0 +1,6 @@
+name: organic-chem-agent
+description: Multi-Agent Organic Chemistry Safety & Research Assistant
+version: 0.1.0
+adk:
+  app_module: app.agent
+  app_name: app

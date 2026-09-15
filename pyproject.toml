@@ -1,0 +1,18 @@
+[project]
+name = "organic-chem-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[dependencies]
+google-adk = "*"
+requests = "*"
+mcp = "*"
+uvicorn = "*"
+fastapi = "*"
+python-dotenv = "*"
+
+[tool.uv]
+environments = [
+    "sys_platform == 'darwin'",
+    "sys_platform == 'linux'",
+]
